@@ -1,0 +1,39 @@
+<hmtl>
+	<head>
+		<title>Menu jQuery</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="./font/css/fontello.css" type="text/css" />
+		<link rel="stylesheet" href="./style.css" type='text/css' />
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="./mln_menu.js"></script>
+	</head>
+
+	<body>
+
+		<section class="mln_sec">
+			<p>
+				“Don’t compare yourself with anyone in this world. If you do so, you are insulting yourself.” – Bill Gates
+			</p>
+		<section>
+
+
+		<script type="text/javascript">
+			$(document).ready(function()
+			{
+			    //call the plugin
+			    $('body').mln_menu(
+			    {
+			    	'target' : '.mln_sec',
+			    	'background' : '#333',
+			    	'color' : '#fff',
+			    	'hoverbackground' : '#fff',
+			    	'hovercolor' : '#808285',
+			    	'itens' : ['Home', 'User', 'Cloud', 'Configurations', 'Logout'],
+			    	'hrefs' : ['#home', '#user', '#cloud', '#configurations', '#logout'],
+			    	'icons' : ['icon-th-large', 'icon-user', 'icon-cloud', 'icon-chart-pie', 'icon-logout']
+			    });
+			});
+		</script>
+
+	</body>
+</hmtl>
