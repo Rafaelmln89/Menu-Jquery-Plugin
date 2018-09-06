@@ -24,7 +24,7 @@
         css += 'section#menu_left #left_menu{ position: fixed; top: 0px; left: 0px; width: 50px; height: 50px; box-shadow: #808285 2px 3px 4px; background-color: '+opcoes.background+'; color: '+opcoes.color+'; cursor: pointer; -webkit-transition: 0.4s ease left; -moz-transition: 0.4s ease left; transition: 0.4s ease left; z-index: 999;}';
         css += 'section#menu_left #left_menu.left_open{ left: 250px;}';
         css += 'section#menu_left h3:before{ font-size: 25px; margin: 12px; }';
-        css += 'section#menu_left ul{ position: fixed; padding-top: 0px; top: 0px; left: -250px; width: 250px; box-shadow: #808285 2px 3px 4px; background-color: '+opcoes.background+'; -webkit-transition: 0.4s ease left; -moz-transition: 0.4s ease left; transition: 0.4s ease left;}';
+        css += 'section#menu_left ul{ position: fixed; padding-top: 0px; top: 0px; left: -250px; width: 250px; box-shadow: #808285 2px 3px 4px; background-color: '+opcoes.background+'; -webkit-transition: 0.4s ease left; -moz-transition: 0.4s ease left; transition: 0.4s ease left; z-index: 999;}';
         css += 'section#menu_left ul.left_open{ left: 0px;}';
         css += 'section#menu_left ul li{ float:left; width: 100%; color: '+opcoes.color+'; background-color: '+opcoes.background+'; -webkit-transition: 0.4s ease all; -moz-transition: 0.4s ease all; transition: 0.4s ease all;}';
         //css += 'section#menu_left ul li.logo_menu{ background-color: #fff; color: #808285; padding: 24px 12px;}';
