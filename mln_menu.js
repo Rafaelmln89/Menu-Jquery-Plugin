@@ -21,7 +21,7 @@
         var css = '<style type="text/css">';
         css += '.hide{display: none !important;}';
         css += '.show{display: block !important;}';
-        css += 'section#menu_left #left_menu{ position: fixed; top: 0px; left: 0px; width: 50px; height: 50px; box-shadow: #808285 2px 3px 4px; background-color: '+opcoes.background+'; color: '+opcoes.color+'; cursor: pointer; -webkit-transition: 0.4s ease left; -moz-transition: 0.4s ease left; transition: 0.4s ease left;}';
+        css += 'section#menu_left #left_menu{ position: fixed; top: 0px; left: 0px; width: 50px; height: 50px; box-shadow: #808285 2px 3px 4px; background-color: '+opcoes.background+'; color: '+opcoes.color+'; cursor: pointer; -webkit-transition: 0.4s ease left; -moz-transition: 0.4s ease left; transition: 0.4s ease left; z-index: 999;}';
         css += 'section#menu_left #left_menu.left_open{ left: 250px;}';
         css += 'section#menu_left h3:before{ font-size: 25px; margin: 12px; }';
         css += 'section#menu_left ul{ position: fixed; padding-top: 0px; top: 0px; left: -250px; width: 250px; box-shadow: #808285 2px 3px 4px; background-color: '+opcoes.background+'; -webkit-transition: 0.4s ease left; -moz-transition: 0.4s ease left; transition: 0.4s ease left;}';
