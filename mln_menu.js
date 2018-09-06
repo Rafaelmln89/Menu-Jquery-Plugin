@@ -28,7 +28,7 @@
         css += 'section#menu_left ul.left_open{ left: 0px;}';
         css += 'section#menu_left ul li{ float:left; width: 100%; color: '+opcoes.color+'; background-color: '+opcoes.background+'; -webkit-transition: 0.4s ease all; -moz-transition: 0.4s ease all; transition: 0.4s ease all;}';
         //css += 'section#menu_left ul li.logo_menu{ background-color: #fff; color: #808285; padding: 24px 12px;}';
-        css += 'section#menu_left ul li a{ float:left; width: 100%; color: '+opcoes.color+'; padding: 12px; -webkit-transition: 0.4s ease all; -moz-transition: 0.4s ease all; transition: 0.4s ease all;}';
+        css += 'section#menu_left ul li a{ float:left; width: 100%; color: '+opcoes.color+'; padding: 12px; -webkit-transition: 0.4s ease all; -moz-transition: 0.4s ease all; transition: 0.4s ease all; box-sizing: border-box;}';
         css += 'section#menu_left ul li:hover{ background-color: '+opcoes.hoverbackground+'; }';
         css += 'section#menu_left ul li:hover a{ color: '+opcoes.hovercolor+'; }';
         css += '</style>';
